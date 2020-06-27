@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CALCULATOR APP</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+       
+        <div class="main">
+            <div class="input">
+                <div><input id="result" type="text"></div>
+            </div>
+            <div class="buttons">
+                <div class="section">
+                    <button onclick="clearResult()">C</button>
+                </div>
+                <div class="section section1">
+                    <button onclick="getNumber('7')">7</button>
+                    <button onclick="getNumber('8')">8</button>
+                    <button onclick="getNumber('9')">9</button>
+                    <button class="color1" onclick="getNumber('/')">/</button>
+                </div>
+                <div class="section section2">
+                    <button onclick="getNumber('4')">4</button>
+                    <button onclick="getNumber('5')">5</button>
+                    <button onclick="getNumber('6')">6</button>
+                    <button class="color1 color2" onclick="getNumber('*')">X</button>
+                </div>
+                <div class="section section2">
+                    <button onclick="getNumber('1')">1</button>
+                    <button onclick="getNumber('2')">2</button>
+                    <button onclick="getNumber('3')">3</button>
+                    <button class="color1 color3" onclick="getNumber('-')">-</button>
+                </div>
+                <div class="section section2">
+                    <button onclick="getNumber('0')">0</button>
+                    <button onclick="getNumber('.')">.</button>
+                    <button class="color1 color4" onclick="getResult()">=</button>
+                    <button class="color1 color5" onclick="getNumber('+')">+</button>
+                </div>
+                <hr>
+                <div>
+                    <p style="text-align: center;">created by : Shehzad Munir</p>
+                </div>
+
+            </div>
+    </div>
+    </body>
+    <script src="app.js"></script>
+</html>
