@@ -50,5 +50,5 @@ function reset_timer(){
     minutes.innerHTML = min;
     seconds.innerHTML = sec;
     miliseconds.innerHTML = msec;
-    pause();
+    pause_timer();
 }
