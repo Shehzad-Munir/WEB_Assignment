@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assign 08 | Stop watch</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="main1 ">
+                <h1 class="text-center">STOP WATCH</h1>
+                <div class="watch d-flex justify-content-around">
+                    <h2 class="minute" id="minute">00</h2>
+                    <h2 class="second" id="second">00</h2>
+                    <h2 class="mili_second" id="mili_second">00</h2>
+                </div>
+                <div class="button flex text-center">
+                    <button onclick="start_timer()" class="btn" id="start">START</button>
+                    <button onclick="pause_timer()" class="btn btn1" id="pause">PAUSE</button>
+                    <button onclick="reset_timer()" class="btn btn2" id="reset">RESET</button>
+                </div>
+                <div class="bio">
+                    <h4>BIO DATA</h4>
+                    <p>Name: <b>Shehzad Munir</b></p>
+                    <p>Registration: <b>WM10697 </b></p>
+                    <p>Email: <b>shehzadbaloch984@gmail.com</b></p>
+                </div>
+            </div>
+
+        </div>  
+        
+    </body>
+    <script src="app.js"></script>
+</html>

@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+
+
+}
+.container .main1{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+    background-color: lightblue;
+    height: 400px;
+}
+.main1 .watch{
+    margin-top: 40px;
+
+}
+.main1 h1{
+    color: white;
+    font-weight: bolder;
+}
+.main1 .watch h2{
+    background-color: whitesmoke;
+    padding: 15px;
+
+    color: gray;
+    border-radius: 2px;
+}
+.main1 .button{
+    margin-top: 20px;
+    
+}
+
+.button button{
+    margin-left: 5px;
+    border: 1px solid black;
+    background-color: white;
+}
+button:hover{
+    background-color: lightgray;
+}
+.container .bio{
+    border-top: 2px solid white;
+    margin-left: 10px;
+    margin: 20px;
+}
